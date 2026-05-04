@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%; 
+}
+
+.gradik {
+background: rgba(1, 1, 1, 1.0);
+background: linear-gradient(135deg, rgba(1, 1, 1, 1.0), rgba(118, 118, 118, 1.0));
+width: 100%;
+height: 100%;
+min-height: 2330px;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px;
+}
+
+span.logo {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 900;
+    color: #e9c664;
+}
+
+header nav {
+    float: right;
+    width: 70%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+header nav ul li:not(.active):not(.btn)a:hover {
+    border-bottom: 5px solid #E9C664;
+}
+
+.hero {
+    padding-bottom: 100px;
+}
+
+.hero img {
+position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*услуги*/
+
+.container_services h4 {
+    position: absolute;
+  top: 950px;
+  left: 50%;
+  transform: translate(-35%, -50%);
+    font-weight: 400;
+    font-size: 19px;
+    color: #E9C664;
+}
+
+.uslugi .EXPLORE-NOW {
+    color: #E9C664;
+    border-radius: 0px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E9C664;
+    padding: 12px 12px;
+    font-weight: bold;
+    position: absolute;
+        top: 1850px; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    display: block;
+}
+
+.container_services h3 {
+position: absolute;
+  top: 1000px;
+  left: 50%;
+  transform: translate(-40%, -50%);
+font-size: 50px;
+}
+
+.block img {
+position: absolute;
+  top: 1425px;
+  left: 50%;
+  transform: translate(-50%, -50%);    
+}
+
+.price {
+    position: absolute;
+    top: 2150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: auto;
+}
+
+.price h5 {
+    color: #E9C664;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Abril Fatface;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.zapis {
+position: absolute;
+     top: 3670px;
+     font-size: 30px;
+     font-weight: 600;
+     left: 50%;
+    transform: translate(-50% , 0);
+border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E9C664;
+    padding: 12px 12px;  
+    background-color: #E9C664; 
+    transition: all 500ms ease; 
+}
+
+.zapis:hover {
+    background-color: #7a5c00;
+
+}
+
+.zapis a {
+    color: #fff;
+}
+
+.end {
+    position: absolute;
+    top: 3800px;
+    width: 100%;
+    height: auto;
+    left: 11.5%;
+}
+
+.html, body  {
+    overflow-x: hidden;
+}
+
+.nadpis h1 {
+    font-family: Abril Fatface;
+    font-size: 60px;
+    color: black;
+position: absolute;
+     top: 2450px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+.nadpis h2 {
+    font-family: inter;
+    font-size: 20px;
+    color: #E9C664;
+position: absolute;
+    top: 2390px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stroka1 {
+    position: absolute;
+    top: 2500px;
+    left: 0;
+    right: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.stroka2 {
+    position: absolute;
+    top: 3040px;
+    left: 0;
+    right: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.socPol {
+    position: absolute;
+    top: 2950px;
+    left: 452px;
+}
+
+.socSem {
+    position: absolute;
+    top: 2950px;
+    left: 885px;  
+}
+
+.socNik {
+    position: absolute;
+    top: 2950px;
+    left: 1318px;  
+}
+
+.socYa {
+    position: absolute;
+    top: 3490px;
+    left: 452px;
+}
+
+.socBobr {
+    position: absolute;
+    top: 3490px;
+    left: 885px; 
+}
+
+.socRom {
+    position: absolute;
+    top: 3490px;
+    left: 1318px; 
+}

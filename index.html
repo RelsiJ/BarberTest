@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShopGolovka</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="gradik">
+  <header class="container">
+    <span class="logo">GOLOVKA</span>
+    <nav >
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="btn"><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+  </header>
+  
+  <div class="hero">
+    <img src="img/Logo1.svg" alt="">
+  </div>
+  <div class="container_services">
+    <h3>SERVICES</h3>
+    <h4>OUR TREATMENT</h4>
+
+    <div class="uslugi">
+      <div class="block">
+        <img src="img/Cards.svg" alt="">
+        <a href="#"class="EXPLORE-NOW">EXPLORE NOW</a>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div>
+  <div class="price">
+    <h5>PRICE</h5>
+   <img src="img/Price.svg" alt="">
+  </div>
+  <div class="zapis">
+    <a href="https://tally.so/r/b52KWE">ЗАПИСЬ</a>
+  </div>
+  <div class="end">
+    <img src="img/End.svg" alt="">
+  </div>
+  <div class="barbers">
+    <div class="nadpis">
+    <h1>OUR BARBERS</h6>
+    <h2>MEET THE FAMILY</h2>
+    <div class="stroka1">
+      <img src="img/cardPol.svg" alt=""> 
+      <img src="img/cardSem.svg" alt="">
+      <img src="img/cardNik.svg" alt="">
+    </div>
+    <div class="stroka2">
+      <img src="img/cardYa.svg" alt="">
+      <img src="img/cardBobr.svg" alt="">
+      <img src="img/cardRoma.svg" alt="">
+    </div>
+    <div class="soc">
+      <div class="socPol">
+      <a href="https://t.me/vifkoza" target="_blank">
+        <img src="img/tg.svg" alt="">
+      </a>
+      <a href="https://vk.com/kixbct" target="_blank"> 
+        <img src="img/vk.svg" alt="">
+      </a>
+      <a href="https://www.tiktok.com/@dwgxkqs?_r=1&_t=ZS-95vWYut9shc" target="_blank">
+        <img src="img/tt.svg" alt="">
+      </a>
+      </div>
+    </div>
+  <div class="socSem">
+    <a href="https://t.me/blackskinuser" target="_blank">
+      <img src="img/tg.svg" alt="">
+    </a>
+    <a href="https://vk.com/saddybiba" target="_blank">
+      <img src="img/vk.svg" alt="">
+    </a>
+    <a href="https://www.tiktok.com/@ammunitionreloading?_r=1&_t=ZS-95vXbn7zyGO" target="_blank">
+      <img src="img/tt.svg" alt="">
+    </a>
+  </div>
+  <div class="socNik">
+    <a href="https://t.me/lonely_star27" target="_blank">
+      <img src="img/tg.svg" alt="">
+    </a>
+    <a href="https://vk.com/id576081253" target="_blank">
+      <img src="img/vk.svg" alt="">
+    </a>
+    <a href="https://www.tiktok.com/@genzy256?_r=1&_t=ZS-95vWvZuQ5lF" target="_blank">
+      <img src="img/tt.svg" alt="">
+    </a>
+  </div>
+  <div class="socYa">
+    <a href="https://t.me/relsij" target="_blank">
+      <img src="img/tg.svg" alt="">
+    </a>
+    <a href="https://vk.com/relsij" target="_blank">
+      <img src="img/vk.svg" alt="">
+    </a>
+    <a href="https://www.tiktok.com/@figznaet29?_r=1&_t=ZS-95vYpSkNPPt" target="_blank">
+      <img src="img/tt.svg" alt="">
+    </a>
+  </div>
+  <div class="socBobr">
+    <a href="https://t.me/igor5607" target="_blank">
+      <img src="img/tg.svg" alt="">
+    </a>
+    <a href="https://vk.com/id749937470" target="_blank">
+      <img src="img/vk.svg" alt="">
+    </a>
+    <img src="img/tt.svg" alt="">
+  </div>
+  <div class="socRom">
+    <a href="https://t.me/hakkury" target="_blank">
+      <img src="img/tg.svg" alt="">
+    </a>
+    <a href="https://vk.com/ceiikone" target="_blank">
+      <img src="img/vk.svg" alt="">
+    </a>
+    <a href="https://www.tiktok.com/@ceiikonee?_r=1&_t=ZS-95vWzTX1pAX" target="_blank">
+      <img src="img/tt.svg" alt="">
+    </a>
+  </div>
+ </div>
+ <section class="booking-form">
+  <h2>Записаться онлайн</h2>
+  <form action="https://barbershop-backend-fcyk.onrender.com" method="POST" id="bookingForm">
+   <div>
+    <label for="name">Ваше имя</label>
+    <input type="text" id="name" name="name" required>
+   </div>
+   <div>
+    <label for="phone">Телефон</label>
+    <input type="tel" id="phone" name="phone" required>
+   </div>
+   <div>
+    <label for="booking_date">Дата записи</label>
+    <input type="date" id="booking_date" name="booking_date" required>
+   </div>
+   <div>
+    <label for="time">Время</label>
+    <input type="time" id="time" name="time">
+   </div>
+   <div>
+    <label for="barber">Барбер</label>
+    <select name="barber" id="barber">
+      <option value="Polina Egorova">Полина Егорова</option>
+      <option value="Sema Vilnicki">Семен Вильницкий</option>
+      <option value="Nikita Dzhabrailov">Никита Джабраилов</option>
+      <option value="Yarik Kudysh">Яромир Кудыш</option>
+      <option value="Igor Babeev">Игорь Бабеев</option>
+      <option value="Roma Krotov">Роман Кротов</option>
+    </select>
+    </div>
+    <div>
+      <label for="service">Услуга</label>
+      <select name="service" id="service">
+        <option value="Haircut">Haircut</option>
+        <option value="Shaving">Shaving</option>
+        <option value="Trimming">Trimming</option>
+        <option value="Facial">Facial</option>
+      </select>
+    </div>
+   <button type="submit">Записаться</button>
+  </form>
+ </section>
+</body>
+</html>
